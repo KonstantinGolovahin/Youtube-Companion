@@ -5,11 +5,12 @@ import YouTube from 'react-youtube';
 // nmp package for getting data
 import axios from 'axios';
 
-import {apiKey} from '../../API/apiKey'
+
 import "./style.css";
 
 function Searchbar() {
   
+ const apiKey ="AIzaSyCwYo1wj8J1bC-bNGaOYLSkdvH7j5tgZYk"; 
 // manage video id from GET request
   const [videoID, setCount] = useState("");
 
