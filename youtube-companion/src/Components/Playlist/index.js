@@ -1,19 +1,9 @@
 import React from "react";
-import YouTube from 'react-youtube';
-import Searchbar from "../Searchbar";
 import "./style.css";
 
 
-
-
-function Playlist() {
-  return (
-    <div>
-      <p>Playlist </p>
-      
-      </div>
-    
-  );
+function Playlist(props) {
+  return <main className="container">{props.children}</main>;;
 }
 
 export default Playlist;
