@@ -14,7 +14,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup'
 
-import { apiKey } from '../../API/apiKey'
+
 import "./style.css";
 
 
@@ -26,7 +26,7 @@ let playLists = []
 
 
 function Searchbar() {
-
+const apikey = "AIzaSyCwYo1wj8J1bC-bNGaOYLSkdvH7j5tgZYk";
   // manage video id from GET request
   const [videoID, setVideo] = useState("");
 
