@@ -21,12 +21,12 @@ import "./style.css";
 // potential playlists to be exported to Playlist component. Can be extracted from response.data.items[0].id.playlistId instead of videoID
 // or simply contain all video id and playlist ID and play
 let playLists = []
-
+const apiKey = "AIzaSyCwYo1wj8J1bC-bNGaOYLSkdvH7j5tgZYk";
 
 
 
 function Searchbar() {
-const apikey = "AIzaSyCwYo1wj8J1bC-bNGaOYLSkdvH7j5tgZYk";
+
   // manage video id from GET request
   const [videoID, setVideo] = useState("");
 
